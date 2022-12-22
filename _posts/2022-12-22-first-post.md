@@ -1,7 +1,7 @@
 ---
 title: 네이버 블로그에서 깃허브 블로그로 이사중...
 author: Suhwan
-date: Now
+date: 2022-12-22 
 categories: [Blogging]
 tags: [typography]
 math: true
