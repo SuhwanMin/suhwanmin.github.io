@@ -28,3 +28,12 @@ $bottom-min-height: 35rem !default;
 /* syntax highlight */
 
 $code-font-size: 0.85rem !default;
+
+
+
+/* system typefaces */
+
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Roboto", "Segoe UI",
+"Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
