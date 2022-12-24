@@ -66,7 +66,8 @@ toc-sticky : true           # 목차가 스크롤을 따라 움직인다.
 
 **6. call by value와 call by referance 차이**
 <hr/>
-<u>메서드를 호출할때 파라미터를 전달하는 방법에는 두가지가 있음</u>
+
+> 메서드를 호출할때 파라미터를 전달하는 방법에는 두가지가 있음
 
 <br/>
 
@@ -95,7 +96,7 @@ toc-sticky : true           # 목차가 스크롤을 따라 움직인다.
 |---|---|
 |인덱스를 가진 데이터|인덱스없이 순차적으로 저장된 데이터의 집합|
 |메모리에 연속적으로 저장|메모리에 분산되어 저장
-|<span style="color:red">랜덤 엑세스</span>가 가능하지만 중간에 <span style="color:yellow">데이터 삽입/삭제가 어려움</span>|<span style="color:red">랜덤 엑세스</span>가 불가능 하지만 중간에 <span style="color:yellow">데이터 삽입/삭제가 쉬움</span>
+|<span style="color:red">랜덤 엑세스</span>가 가능하지만 중간에 <span style="color:green">데이터 삽입/삭제가 어려움</span>|<span style="color:red">랜덤 엑세스</span>가 불가능 하지만 중간에 <span style="color:green">데이터 삽입/삭제가 쉬움</span>
 ||구현하는 가장 일반적인 방법은 Linked List|
 
 <br/>
@@ -127,7 +128,7 @@ private 클래스() {}
 ```
 ! 싱글톤 패턴의 핵심은 생성자 호출을 할 수 없는것.<br>
 생성자 호출을 할 수 없으니, 외부에서 객체를 생성하는 것이 불가능 하다.<br>
-<span style="color:yellow">대신 싱글톤 패턴이 제공하는 정적 메소드를 통해 간접적으로 객체를 얻을 수 있다.</span>!
+<span style="color:green">대신 싱글톤 패턴이 제공하는 정적 메소드를 통해 간접적으로 객체를 얻을 수 있다.</span>!
 ```java
 public class 클래스 {
     //private 접근 권한을 갖는 정적 필드 선언과 초기화
