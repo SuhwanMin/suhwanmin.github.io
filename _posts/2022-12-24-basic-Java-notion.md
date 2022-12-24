@@ -2,7 +2,7 @@
 title: Java 기본 개념
 author: Suhwan
 date: 2022-12-24 
-categories: [Java]
+categories: [Java, 자바기본지식]
 tags: [typography]
 math: true
 mermaid: true
